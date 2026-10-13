@@ -1,0 +1,16 @@
+{
+  "model": "3-gram (Interpolated)",
+  "params": 1738546,
+  "train_time_sec": 1.7,
+  "val_ppl": 280.39,
+  "test_ce": 5.5898,
+  "test_ppl": 267.67,
+  "addk_test_ppl": 1657.67,
+  "inference_time_sec": 0.25,
+  "throughput_tok_per_sec": 907896.9,
+  "generations": {
+    "the history of the": "the history of the same time , the . this gave the album , the , and the rest of the , referring to it by the time for",
+    "during the second world": "during the second world war ii , the . this gave the album , the , and the rest of the , referring to it by the time for",
+    "the film was directed by": "the film was directed by executive producer david fincher won outstanding writing for the first time , the song in their first three innings . somerset went into the village"
+  }
+}

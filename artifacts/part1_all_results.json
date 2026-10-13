@@ -1,0 +1,135 @@
+[
+  {
+    "model": "3-gram (Interpolated)",
+    "params": 1738546,
+    "train_time_sec": 1.7,
+    "val_ppl": 280.39,
+    "test_ce": 5.5898,
+    "test_ppl": 267.67,
+    "addk_test_ppl": 1657.67,
+    "inference_time_sec": 0.25,
+    "throughput_tok_per_sec": 907896.9,
+    "generations": {
+      "the history of the": "the history of the same time , the . this gave the album , the , and the rest of the , referring to it by the time for",
+      "during the second world": "during the second world war ii , the . this gave the album , the , and the rest of the , referring to it by the time for",
+      "the film was directed by": "the film was directed by executive producer david fincher won outstanding writing for the first time , the song in their first three innings . somerset went into the village"
+    }
+  },
+  {
+    "model": "RNN",
+    "params": 3055400,
+    "train_time_sec": 323.59,
+    "val_ppl": 223.24,
+    "test_ce": 5.3699,
+    "test_ppl": 214.84,
+    "inference_time_sec": 1.38,
+    "throughput_tok_per_sec": 166166.1,
+    "train_curve": [
+      6.8534,
+      6.2859,
+      6.048,
+      5.9132,
+      5.8252,
+      5.756,
+      5.7016,
+      5.6565,
+      5.6193,
+      5.5853
+    ],
+    "val_curve": [
+      6.2429,
+      5.9088,
+      5.7424,
+      5.6466,
+      5.5846,
+      5.5278,
+      5.4914,
+      5.4562,
+      5.4337,
+      5.4083
+    ],
+    "generations": {
+      "the history of the": "the history of the first time of the united states on the third world league game , the video and is no to the second , where the song",
+      "during the second world": "during the second world war , he was in the game , and they be given the most watched part . as the first name of which i had",
+      "the film was directed by": "the film was directed by the first of the year . this was also made from the late day after this episode that she was still not only from the"
+    }
+  },
+  {
+    "model": "LSTM",
+    "params": 3176600,
+    "train_time_sec": 300.21,
+    "val_ppl": 355.02,
+    "test_ce": 5.8372,
+    "test_ppl": 342.81,
+    "inference_time_sec": 1.12,
+    "throughput_tok_per_sec": 203269.0,
+    "train_curve": [
+      6.9277,
+      6.6385,
+      6.5234,
+      6.4181,
+      6.3491,
+      6.2964,
+      6.2529,
+      6.2112,
+      6.1713,
+      6.1338
+    ],
+    "val_curve": [
+      6.4796,
+      6.358,
+      6.2407,
+      6.1502,
+      6.0931,
+      6.0435,
+      5.9948,
+      5.9485,
+      5.9099,
+      5.8722
+    ],
+    "generations": {
+      "the history of the": "the history of the the the first , they has an the film was used . the and most is , his song was that , as the the",
+      "during the second world": "during the second world , the first , but his game was the time as the the of other in his series in the same time as the the",
+      "the film was directed by": "the film was directed by the the first , it has an the film , they as the of all game of"
+    }
+  },
+  {
+    "model": "Transformer",
+    "params": 3225312,
+    "train_time_sec": 322.27,
+    "val_ppl": 213.71,
+    "test_ce": 5.2995,
+    "test_ppl": 200.25,
+    "inference_time_sec": 1.18,
+    "throughput_tok_per_sec": 193591.9,
+    "train_curve": [
+      6.6242,
+      6.1068,
+      5.9457,
+      5.8294,
+      5.7389,
+      5.6667,
+      5.606,
+      5.554,
+      5.5098,
+      5.4703
+    ],
+    "val_curve": [
+      5.9574,
+      5.7721,
+      5.6616,
+      5.5815,
+      5.5325,
+      5.4856,
+      5.451,
+      5.4182,
+      5.3876,
+      5.3646
+    ],
+    "generations": {
+      "the history of the": "the history of the first time of the second place and the national league premier league cup in their third team at twickenham . following the end of the",
+      "during the second world": "during the second world war ii was the final in july 2010 , 2008 09 of the club as the top three seasons , 2011 , 2009 , the",
+      "the film was directed by": "the film was directed by the film , and , including its first film of this and the episode at home . . it was first published to the film"
+    }
+  }
+]
